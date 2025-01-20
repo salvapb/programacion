@@ -7,11 +7,12 @@ intentos+=1
 numerosec=random.randint(1, 5)
 
 
-while numero!=numerosec and intentos <3:
-    
-    print("numero no acertado")
-    intentos+=1
+while numero!=numerosec and intentos<3:
+    if numero!=numerosec:
+        print("numero no acertado")
+        intentos+=1
     numero=int(input("vuelve a intentarlo: "))
-print("numero acertado")
-if intentos==3:
-    print("programa finalizado, has hecho los 3 intentos")
+    if intentos==3:
+        print("programa finalizado, has hecho los 3 intentos")
+    else:
+        print("numero acertado")
