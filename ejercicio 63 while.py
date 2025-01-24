@@ -26,5 +26,5 @@ while tiradas<100:
     tiradas+=1
 
 
-print(f"los numeros unos han sido {numeros1}, de dos{numeros2}, de tres {numeros3},de cuatros {numeros4}, de cincos {numeros5} y de seis {numeros6}")
+print(f"El numero de unos han sido {numeros1}, de dos {numeros2}, de tres {numeros3},de cuatros {numeros4}, de cincos {numeros5} y de seis {numeros6}")
     
